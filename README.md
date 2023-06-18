@@ -11,11 +11,11 @@ A Software Engineer's personal portfolio. Visit website to access social links.
   <li>With your desired html viewer view index.html page from desired web app</li>
 </ol>
 ## Technologies
-<img src_"" />
-<img src_"" />
-<img src_"" />
-<img src_"" />
+<img src="" />
+<img src="" />
 ## Additional Info
-Developed by Dev Georges
-<a href = "https://wa.me/+254796807438">Contact Me</a>
-Visit my website at <a bref="georges.vercel.app">georges.vercel.app</a>
+<ul>
+  <li>Developed by Dev Georges.</li>
+  <li><a href = "https://wa.me/+254796807438">Contact Me</a></li>
+  <li>Visit my website at <a bref="georges.vercel.app">georges.vercel.app</a></li>
+</ul>
