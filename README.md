@@ -12,11 +12,12 @@ A Software Engineer's personal portfolio. Visit website to access social links.
 </ol>
 
 ## Technologies
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHTML&psig=AOvVaw3vTzlaVF_sn-_W0dhgOIxF&ust=1687351829815000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiDy8bx0f8CFQAAAAAdAAAAABAE" />
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fcss-icon&psig=AOvVaw3u5GLoTZz2oZngS-v7gSyp&ust=1687351895404000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODGwOTx0f8CFQAAAAAdAAAAABBD" />
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechnokrats.in%2F6-best-jquery-plugin-to-use-this-year%2F&psig=AOvVaw2a3Cb9OqCLruZGbXmmVyOG&ust=1687351949633000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCfrv7x0f8CFQAAAAAdAAAAABAE" />
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FJavaScriptcom%2F&psig=AOvVaw3b55g6rsX75EXXfoz0zXhv&ust=1687351995724000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCcu5Ty0f8CFQAAAAAdAAAAABAI" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" /> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" style="border-radius: 50%; width: 200px; height: 200px;">
+<img src="https://img.freepik.com/free-icon/css_318-698167.jpg" style="border-radius: 50%; width: 200px; height: 200px;">
+<img src="https://technokrats.in/wp-content/uploads/2020/11/Content1-7.png" style="border-radius: 50%; width: 200px; height: 200px;">
+<img src="https://techvccloud.mediacdn.vn/2018/11/23/js-15429579443112042672363-crop-1542957949936317424252.png" style="border-radius: 50%; width: 200px; height: 200px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" style="border-radius: 50%; width: 200px; height: 200px;">
+
 
 ## Additional Info
 <ul>
