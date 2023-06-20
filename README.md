@@ -22,6 +22,6 @@ A Software Engineer's personal portfolio. Visit website to access social links.
 ## Additional Info
 <ul>
   <li>Developed by Dev Georges.</li>
-  <li><a href = "https://wa.me/+254796807438">Contact Me</a></li>
-  <li>Visit my website at <a bref="georges.vercel.app">georges.vercel.app</a></li>
+  <li>Chat me with on <a href = "https://wa.me/+254796807438">whatsapp</a></li>
+  <li>Visit my website at <a href="roberto-georges.vercel.app">roberto-georges.vercel.app</a></li>
 </ul>
