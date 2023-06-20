@@ -1,13 +1,13 @@
 # Personal Portfolio
 ## Website Preview
-<a href="roberto-georges.vercel.app">
-<div style="width: 100%; height: auto;">
-  <img src="img/webPreview.png" alt="Web Preview" style="max-width: 100%; height: auto; display: block; margin: 0 auto;>
+<a href="roberto-geroges.vercel.app"><div style="width: 100%; height: auto;">
+  <img src="img/webPreview.png" alt="Web Preview" style="max-width: 100%; height: auto; display: block; margin: 0 auto; ">
 </div>
 </a>
 
 ## About Website 
 A Software Engineer's personal portfolio. Visit website to access social links.
+
 ## How to use the source code
 <ol>
   <li>Click on code then fork</li>
