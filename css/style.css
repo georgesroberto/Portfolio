@@ -1045,3 +1045,26 @@ a:hover {
   color: #FFFFFF;
   padding: 20px;
 }
+
+@keyframes dancing {
+  0% { transform: translateX(0); color: #eaeaea;}
+  50% { transform: translateX(-20px) rotate(-5deg); color: #000000;}
+  100% { transform: translateX(0); }
+}
+
+#myButton {
+  animation: dancing 1s infinite;
+  display: inline-block;
+  padding: .3rem .6rem;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1rem;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  cursor: pointer;
+}

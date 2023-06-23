@@ -115,3 +115,8 @@
 	});
 
 })(jQuery);
+
+
+function birthday(){
+	alert( "Visit my birthday page!!" )
+}
