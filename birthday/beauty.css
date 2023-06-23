@@ -1,12 +1,9 @@
-@import url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60");
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-image: url("https://media.istockphoto.com/id/185121680/photo/birthday-gift-of-vacationing-in-tropical-paradise-beach-hz.webp?b=1&s=170667a&w=0&k=20&c=TOKO6hVm1I35G_6eAaRWjxo8YFz8icnn0MYMqkT_PxE=");
-    color: white;
+    background-image: url("bg1.jpg");
     background-size: cover;
     background-position: center center;
     display:flex;
@@ -16,6 +13,7 @@ body {
     min-height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
+    color: white;
 }
 
 h1{
@@ -24,15 +22,20 @@ h1{
     margin-top: -10rem;
 }
 
+
 .countdown-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    margin: 1rem 2rem;
 }
+
 
 .big-text {
     font-weight: bold;
     font-size: 6rem;
     line-height: 1;
-    margin: 0 2rem;
+    margin: 1rem 2rem;
 }
 
 .countdown-el {
@@ -41,4 +44,8 @@ h1{
 
 .countdown-el span {
     font-size: 1.5rem;
+}
+
+.seconds-c{
+    color: blue;
 }

@@ -1,26 +1,36 @@
-const daysEl = document.getElementById('days');
-const hoursEl = document.getElementById('hours');
-const minutesEl = document.getElementById('minutes');
 const secondsEl = document.getElementById('seconds');
+const minutesEl = document.getElementById('minutes');
+const hoursEl = document.getElementById('hours');
+const daysEl = document.getElementById('days');
+const weeksEl = document.getElementById('weeks');
 
-
-const newYears = '5th July 2023';
+const newYears = "05 July 2023";
 
 function countdown() {
     const newYearsDate = new Date(newYears);
     const currentDate = new Date();
 
-    const totalSeconds = new Date(newYearsDate - currentDate) * 1000;
+    const totalSeconds = (newYearsDate - currentDate) / 1000;
 
-    const days = Math.floor(seconds / 3600 /24);
-    const hours = Math.floor(seconds /3600 ) % 24;
-    const minutes = Math.floor(seconds / 60 ) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
+    const minutes = Math.floor(totalSeconds / 60 ) % 60;
+    const hours = Math.floor(totalSeconds / 3600 ) % 24;
+    const days = Math.floor(totalSeconds / 3600 / 24);
+    const weeks = Math.round(days/7);
 
-    cons
-    alert(newYearsDate - currentDate);
+    secondsEl.innerHTML = seconds;
+    minutesEl.innerHTML = minutes;
+    hoursEl.innerHTML = hours;
+    daysEl.innerHTML = days;
+    weeksEl.innerHTML = weeks;
+
+    if (totalSeconds == 0) {
+        clearInterval(countdownInterval);
+        alert("Happy Birthday Georges!");
+    }
 }
 
-//countdown();
+countdown();
 
-//setInterval(countdown, 1000);
+setInterval(countdown, 1000);
+
