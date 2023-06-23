@@ -24,10 +24,14 @@ function countdown() {
     daysEl.innerHTML = days;
     weeksEl.innerHTML = weeks;
 
-    if (totalSeconds == 0) {
-        clearInterval(countdownInterval);
-        alert("Happy Birthday Georges!");
+    if (secondsEl == 0 && minutesEl == 0 && hoursEl ==  0 && daysEl == 0 && weeksEl == 0 ){
+        alert("Happy Birthday Georges")
+        return coder();
     }
+}
+
+function coder(){
+    
 }
 
 countdown();

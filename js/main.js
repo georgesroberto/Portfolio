@@ -118,5 +118,9 @@
 
 
 function birthday(){
-	alert( "Visit my birthday page!!" )
+	alert( "Visit my birthday page!!" );
+}
+
+function port(){
+	alert("Thanks for visting! Going back to portfolio!!");
 }
