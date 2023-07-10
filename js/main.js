@@ -118,9 +118,9 @@
 
 
 function birthday(){
-	alert( "Visit my birthday page!!" );
+	alert( "Open Bible Trivia App" );
 }
 
 function port(){
-	alert("Thanks for visting! Going back to portfolio!!");
+	alert("Open Portfolio");
 }
