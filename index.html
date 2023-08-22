@@ -77,7 +77,6 @@
         <div class="container">
           <h1 class="intro-title mb-4">ROBERTO GEORGES</h1>
           <p class="intro-subtitle"><span class="text-slider-items">Software Engineer, Full stack developer</span><strong class="text-slider"></strong></p>
-          <span><button id="myButton" style="position: center;" class="button button-a button-big button-rouded" onclick="birthday()"><a href="https://bible-trivia-app.vercel.app" style="color: #ffffff;">Visit Bible Trivia App</a></button></span>
         </div>
       </div>
     </div>
@@ -151,13 +150,10 @@
 
                     <li>My expertise extends to full-stack development, encompassing front-end technologies such as HTML5, CSS, Bootstrap5 and JavaScript, as well as back-end technologies like Node.js, and PHP. I am well-versed in working with database management systems, including SQL databases like MySQL.</li>
                   </p>
-                  <p class="lead">
-                    <li>PROJECTS, ACCOMPLISHMENTS</li>
-                  </p>
                   <p>
-                    <span><button style="position: left;" class="button button-a button-big button-rouded"><a href="lib/ROBERTO GEORGES CV.pdf" download style="color: #ffffff;">Download CV</a></button></span>
+                    <span><button style="position: left;" class="button button-a button-big button-rouded" ><a class="fas fa fa-download" href="lib/ROBERTO GEORGES CV.pdf" style="color: #ffffff;" download>Download CV</a></button></span>
                   
-                    <span><button class="button button-a button-big button-rouded" ><a href="https://wa.me/+254796807438"  style="color: #ffffff;">Chat with me</a></button></span>
+                    <span><button class="button button-a button-big button-rouded" ><a class="fas fa fa-whatsapp" href="https://wa.me/+254796807438" style="color: #f5f5f5;">Chat with me</a></button></span>
                   </p>
                 </div>
               </div>
@@ -216,13 +212,54 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
+              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Laravel Developmemt</h2>
+              <p class="s-description text-center">
+                With a genuine passion for web development and a dedicated focus on Laravel, I've worked hard to refine my expertise in crafting robust and dynamic web applications. My skill set ranges from designing seamless APIs to architecting intricate database structures. I take immense pride in my ability to effectively utilize Laravel's capabilities, turning concepts into exceptional digital experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
               <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">System Administration</h2>
+              <h2 class="s-title">Android Development</h2>
               <p class="s-description text-center">
-                A proactive and meticulous system administrator will boost your IT infrastructure. I have extensive management experience, and I expertly manage network operations, server upkeep, and security methods to guarantee continuous corporate operations. I automate procedures, reduce downtime, and improve system performance by utilizing my experience in cloud technologies. 
+                As an aspiring Android developer, I am thrilled to showcase my journey of growth and learning in the realm of mobile app development. My fascination with Android has driven me to dive headfirst into mastering the fundamentals, and I take immense pride in my ability to create intuitive and user-friendly interfaces. Through dedicated learning and hands-on experience, I have gained proficiency in Java programming (In the Kotlin Learning curve), UI/UX design, and the implementation of core Android components. My evolving skills allow me to transform creative ideas into functional app experiences.
               </p>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-edit"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Freelancing (Writing, Data Entry)</h2>
+              <p class="s-description text-center">
+                Juggling the role of a freelance writer alongside my primary endeavors, I bring three years of diverse experience to the realm of content creation. With a keyboard as my canvas, I've meticulously woven words into compelling narratives, informative articles, and engaging blog posts. Through countless projects, I've honed my ability to tailor my writing to various tones and styles, ensuring the delivery of content that captivates and informs readers. In addition to my passion for writing, my interest in cyber security has also led me to explore and craft content that raises awareness about digital safety. 
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-network"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Networking</h2>
+              Unleashing the digital realm is my forte, forged through hands-on experience in cyber expertise. Proficient in online tasks, cabling intricacies, routing finesse, and WiFi wizardry, I engineer seamless connections – I'm equally at home in the role of a networking virtuoso, I sculpt data pathways, while in system administration, I ensure seamless operations. Let's bridge your tech dreams to reality, turning challenges into solutions.
             </div>
           </div>
         </div>
@@ -312,6 +349,7 @@
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
+                      <a href="img/dicii.png" data-lightbox="gallery-mf">
                       <h2 class="w-title">Junior Wordpress Manager</h2>
                       <div class="w-more">
                         <span class="w-ctegory">DICII SUPERMARKET</span> / <span class="w-date">Nov 2021</span>
@@ -483,7 +521,6 @@
             <div class="copyright-box">
               <p class="copyright">&copy;Copyright <em style="color: black;">Devfolio</em>. All Rights Reserved</p>
               <div class="credits"><span right> Designed by <a href="#"><strong style="color:skyblue"> Dev Georges </strong></span></a>
-                <span><button class="button button-a button-rouded" onclick="hello()"><a href="https://wa.me/+254796807438"  style="color: #ffffff;">Make Donation</a></button></span>
               </div>
             </div>
           </div>
@@ -496,14 +533,6 @@
   <!--Final Footer End-->
 
   <!-- JavaScript Libraries -->
-  <script>
-    function hello(){
-      alert("Thank you for your kind heart. The best donation I can take is a job from you. Anyway let's chat on whatsApp")
-    }
-    function feed(){
-      alert("Feedback sent successfully")
-    }
-  </script>
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/popper/popper.min.js"></script>
