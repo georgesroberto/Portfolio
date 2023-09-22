@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Include Bootstrap (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Include Font Awesome CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar fixed-top">
+            <a href="/img/Logo.png"><img src="./img/Logo.png" alt="" style="width: 60px; height: 60px; border-radius: 100px;"></a>
+            <span>
+               <a class="nav-item" href="#" target="_self">Home</a>
+               <a class="nav-item" href="#about" target="_self">About</a>
+               <a class="nav-item" href="#services" target="_self">Services</a>
+               <a class="nav-item" href="#projects" target="_self">Projects</a>
+               <a class="nav-item" href="#contact" target="_self">Contact</a>
+            </span>
+        </nav>
+        <div class="home" id="#">
+            <img src="./img/intro-bg.jpg" alt="Landing-Profile" stretch>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+
+    <!-- START MAIN -->
+    <main class="container" role="main">
+
+        <!-- ABOUT -->
+        <div class="card">
+            <div class="card-title">
+                <h4 id="about">Who I Am</h4>
+            </div>
+            <div class="about">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">                    
+                                <img src="./img/Profile.jpg" alt="Profile">
+                            </div>
+                            <span class="col-md-6">
+                                <p><b>Name: </b>ROBERTO GEORGES</p>
+                                <p><b>Profession: </b>Software Engineering</p>
+                                <p><b>Description: </b>Programmer | Developer</p>
+                                <p><b>Github username: </b>georgesroberto</p>
+                                <p><b>Phone: </b>+254796807438</p>                                
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Personal Summary</h5>
+                        <p>I am a skilled and enthusiastic software engineer who possesses a solid background in computer science and specializes in creating resilient and scalable software solutions. With a proven history of accomplished projects and a strong dedication to staying abreast of the latest technologies, my focus lies in producing top-notch systems and inventive solutions that align with client needs.</p>
+                        <p>I possess proficiency in several programming languages, including PhP, C++, Java, Kotlin, Python, and JavaScript, and I have a deep understanding of object-oriented programming principles. Additionally, I have a strong knowledge of Agile software development methodology, enabling me to facilitate efficient collaboration and project management.</p>
+                        <p>My expertise extends to full-stack development, encompassing front-end technologies such as HTML5, CSS, Bootstrap5 and JavaScript, as well as back-end technologies like Node.js, and PhP. I am well-versed in working with database management systems, including SQL databases like MySQL.</p>
+                        <a href="doc/Georges_Resume.pdf" type="file" download style="color: white;"><button class="btn btn-primary"><i class="fas fa-download"></i> Download CV</button></a>
+                        <a href="https://wa.me/+254796807438" style="color: white;"><button class="btn btn-primary" type="submit"><i class="fas fa-message"></i> Let's Chat</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END ABOUT -->
+
+
+        <!-- SERVICES -->
+        <section class="paralax-mf bg-image" style="background-image: url(img/lastImage.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="card">
+                <div class="card-title">
+                    <h3 id="services">What I do</h3>
+                </div>
+
+                <div class="services container-fluid wrap">
+                    <div class="row">
+                        <div class="col-md-6 mb-2">
+                            <div class="card border-primary">
+                                <div class="card-title">
+                                    <h6>Website Development</h6>
+                                </div>
+                                <i class="fas fa-laptop"></i>
+                                <div class="card-text">
+                                    <p>Ignite your online presence with a skilled web developer who combines creativity and technical expertise to craft stunning websites. With a passion for user-centric design and a knack for cutting-edge technologies, I specialize in building immersive and responsive web experiences. From captivating visuals to seamless functionality, I deliver tailor-made solutions that leave a lasting impact. Let's transform your digital vision into a reality.</p>
+                                </div>                  
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="card border-primary">
+                                <div class="card-title">
+                                    <h6>Laravel Web Systems</h6>
+                                </div>
+                                <i class="fas fa-code"></i>
+                                <div class="card-text">
+                                    <p>With a genuine passion for web development and a dedicated focus on Laravel, I've worked hard to refine my expertise in crafting robust and dynamic web applications. My skill set ranges from designing seamless APIs to architecting intricate database structures. I take immense pride in my ability to effectively utilize Laravel's capabilities, turning concepts into exceptional digital experiences.</p>
+                                </div>                  
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="card border-primary">
+                                <div class="card-title">
+                                    <h6>Android | IOS Apps</h6>
+                                </div>
+                                <i class="fas fa-Phone"></i>
+                                <div class="card-text">
+                                    <p>As an aspiring Android developer, I am thrilled to showcase my journey of growth and learning in the realm of mobile app development. My fascination with Android has driven me to dive headfirst into mastering the fundamentals, and I take immense pride in my ability to create intuitive and user-friendly interfaces. Through dedicated learning and hands-on experience, I have gained proficiency in Java programming (In the Kotlin Learning curve), UI/UX design, and the implementation of core Android components. My evolving skills allow me to transform creative ideas into functional app experiences.</p>
+                                </div>                  
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="card border-primary">
+                                <div class="card-title">
+                                    <h6>Django Python Dev</h6>
+                                </div>
+                                <i class="fas fa-globe"></i>
+                                <div class="card-text">
+                                    <p>Ignite your online presence with a skilled web developer who combines creativity and technical expertise to craft stunning websites. With a passion for user-centric design and a knack for cutting-edge technologies, I specialize in building immersive and responsive web experiences. From captivating visuals to seamless functionality, I deliver tailor-made solutions that leave a lasting impact. Let's transform your digital vision into a reality.</p>
+                                </div>                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SERVICES-->
+
+
+        <!-- PROJECTS -->        
+        <div class="card" id="projects">
+            <div class="card-title">
+                <h3>Projects I Have Done</h3>
+            </div>
+            <div class="card-text">
+                <div class="row">
+                    <!--App 1-->
+                    <div class="col-md-6">
+                        <div class="card border-primary">
+                            <div class="card-title">
+                                <h5>Bible Trivia Mini App</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://bible-trivia-app.vercel.app/"><img src="./img/trivia.png" class="pb-3" alt="Bible-Trivia-App"></a>
+                                <p>This is a basic beginner level (HTML/CSS/JS web-app) to demonstrate my expertse in Web 1 Programming</p><p>God programmed the whole world so why don't we kick off with this appetizer for the projects. Remember to chat me your score.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 1-->
+                    
+                    <!--App 2-->
+                    <div class="col-md-6">
+                        <div class="card border-primary">
+                            <div class="card-title">
+                                <h5>Fatmak Pro Consultancy</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://www.fatmakproconsultancy.com/"><img src="./img/fatmak.png" class="pb-3" alt="Fatmak-Pro-Consultancy"></a>
+                                <p>With the basic knowledge of static Web1, I have managed to succesfully complete this Consultancy firm website. I must share my applaud at half a cup of coffee to my partner, Dev <a href="https://kalutu-daniel.vercel.app">Kalutu Daniel</a>, for how much we pushed to see this hosted.</p>
+                                <p>Feel free to get some Consultancy services at their website...<a href="https://fatmakproconsultancy.com">fatmakproconsultancy.com</a> or just search for this indexed website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 2-->
+                    <!--App 3-->
+                    <div class="col-md-6">
+                        <div class="card border-primary">
+                            <div class="card-title">
+                                <h5>Make I Am</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://makeiam.vercel.app" class="pb-3"><img src="./img/mia.png" alt="Make I Am"></a>
+                                <p>Jeez too much code without music? Get to see this powerful website of an upcoming artist, MAKE I AM</p>
+                                <P>Are you aware that a new track is out. I'm Obsessed mahn<a href="makeiam.vercel.app"> Click Here</a> and get to watch it from the website I developed. Dev Kalutu...are you there?</P>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 3-->
+                    <!--App 4-->
+                    <div class="col-md-6">
+                        <div class="card border-primary">
+                            <div class="card-title">
+                                <h5>Movie App</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://georges-movie-app.vercel.app/" class="pb-3"><img src="./img/movie.png" alt="Movie-App"></a>
+                                <p>Okay, Here I am again. Have you watched the latest movie currently rating at 9.*</p>
+                                <p>Okay if you think I am kidding, take a look at my movie app. Coders may understand when I say <b>APIs</b> are here to make life colorful.</p>
+                                <p>Tell me you favourite movie not in my app and I will give you a <i>free T-shirt</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 4-->
+                    <!--App 5-->
+                    <div class="col-md-6">
+                        <div class="card border-primary">
+                            <div class="card-title">
+                                <h5>Stock Management System</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <img src="./img/smis.png" class="pb-3"  alt="Stock-Management-System">
+                                <p>Have you heard of <b>Python</b>? Don't freak out. I am talking about a language and not that scary animal.</p>
+                                <p><b><i>Having a difficult time stock taking?</i></b> I have a web-based application that can be used to track stock. Order IN, Issue OUT, Alert REORDER.</p>
+                                <p>Let's not make the stew too spicy. Just give me a call and digitize your shop right away.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 5-->
+                    <!--App 6-->
+                    <div class="col-md-6">
+                        <div class="card border-primary">
+                            <div class="card-title">
+                                <h5>SelfSpark BlogApp</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <img src="./img/blog.png" class="pb-3" alt="Blog-App">
+                                <p>Are you interested in Blogs? <b>LARAVEL</b> is a friend of mine.</p>
+                                <p>I used it to develop this awesome blog app. Check out soon for the link coz I'm certain you are not ready for what is coming. </p>
+                                <p>The advent of mental preparedness</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 6-->
+                </div>
+            </div> 
+            <button class="btn btn-primary p-3 m-3">Consider Visiting My GitHub Page To See More Projects</button>               
+        </div>
+        <!-- END PROJECTS -->
+
+
+        <!--START CONTACT FORM-->
+        <section class="paralax-mf bg-image" style="background-image: url(img/lastImage.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="card border-primary">
+                <div class="contact" id="contact">
+                    <h3 class="card-title" >Contact Me </h3>
+                    <div class="card-text row">
+                        <div class="col-1"></div>
+                        <div class="col-md-6">
+                            <form action="">
+                                <h6>Feedback Form</h6>
+                                <input class="border-primary" type="text" placeholder="Your Name: " required/><br><br>
+                                <input class="border-primary" type="email" placeholder="Your Email" required/><br><br>
+                                <input class="border-primary" type="number" placeholder="Phone number (optional)" /><br><br>
+                                <textarea class="border-primary" placeholder="Write feedback here..." id="" cols="30" rows="5" required></textarea><br><br>
+                                <button class="btn btn-primary" type="submit">Send Feedback <i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col-4">
+                            <h5>Get in Touch</h5>
+                            <h6>Physical Address</h6>
+                            <i class="p-2 fas fa-location"></i><b>Location:</b> 
+                            Tudor, Mombasa, Kenya<br>
+                            <i class="p-2 fas fa-phone"></i><b>Phone:</b>
+                            <a href="tel:+254796807438">+254796807438</a><br>
+                            <i class="p-2 fas fa-message"></i><b>Gmail:</b>
+                            <a href="mailto:georgesroberto21@gmail.com">georgesroberto21@gmail.com</a><br><br>
+
+                            <h5>Socials</h5>
+                            <i class="p-2 ion-social-github"><a target="_self" href="https://github.com/georgesroberto"></i>GITHUB</a>
+                            <i class="p-2 ion-social-linkedin"><a target="_self" href="https://linkedin/roberto-georges">LINKEDIN</i></a>
+                            <i class="p-2 ion-social-instagram"><a target="_self" href="https://instagram.com/georgesandress">INSTAGRAM</i></a>
+                            <i class="p-2 ion-social-facebook"><a target="_self" href="https://facebook.com/roberto-georges">FACEBOOK</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END CONTACT FORM -->
+    </main>
+    <!-- END MAIN -->
+
+
+    <!--START FOOTER -->
+    <footer class="footer pt-4">
+        <div class="row">
+            <div class="col-12">
+                <p>2023 | All rights reserved | Developed with love by Roberto Georges</span>
+            </div>
+        </div>
+    </footer>
+    <!--END FOOTER-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
