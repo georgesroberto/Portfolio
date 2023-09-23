@@ -1,553 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Roberto Georges</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Roberto Georges" name="keywords">
-  <meta content="Portfolio" name="description">
-  <meta name="google-site-verification" content="nqod4kIykV48-Pu8sJTZpsB6954-lGAfetz53SfKeQ8" />
+    <meta charset="utf-8">
+    <title>Roberto Georges</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Roberto Georges" name="keywords">
+    <meta content="Portfolio" name="description">
+    <meta name="google-site-verification" content="nqod4kIykV48-Pu8sJTZpsB6954-lGAfetz53SfKeQ8" />
 
-  <!--My ADSENSE LINK-->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6926229456474833"
-     crossorigin="anonymous"></script>
-  <!--End of Ads-->
+    <!--My ADSENSE LINK-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6926229456474833"
+        crossorigin="anonymous"></script>
+    <!--End of Ads-->
 
-  <!-- Favicons -->
-  <link href="img/favicon.ico" rel="icon">
-  <link href="img/Logo.png" rel="apple-touch-icon">
+    <!-- Include Bootstrap (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Font Awesome CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="style.css">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
 </head>
-
-<body id="page-top">
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Portfolio</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <!--<a class="nav-link js-scroll" href="#blog">Blog</a>
-          </li>-->
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
-
-  <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h1 class="intro-title mb-4">ROBERTO GEORGES</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Software Engineer, Full stack developer</span><strong class="text-slider"></strong></p>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar fixed-top">
+            <a href="/img/Logo.png"><img src="./img/Logo.png" alt="" style="width: 60px; height: 60px; border-radius: 100px;"></a>
+            <span>
+               <a class="nav-item" href="#" target="_self">Home</a>
+               <a class="nav-item" href="#about" target="_self">About</a>
+               <a class="nav-item" href="#services" target="_self">Services</a>
+               <a class="nav-item" href="#projects" target="_self">Projects</a>
+               <a class="nav-item" href="#contact" target="_self">Contact</a>
+            </span>
+        </nav>
+        <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+            <div class="overlay-itro"></div>
+            <div class="intro-content display-table">
+              <div class="table-cell">
+                <div class="container">
+                  <h1 class="intro-title mb-4">ROBERTO GEORGES</h1>
+                  <p class="intro-subtitle"><span class="text-slider-items">Software Engineer, Full stack developer</span><strong class="text-slider"></strong></p>
+                </div>
+              </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
+    </header>
+    <!-- END HEADER -->
 
-  <!--About Start-->
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
+
+    <!-- START MAIN -->
+    <main class="container" role="main">
+
+        <!-- ABOUT -->
+        <div class="card">
+            <div class="card-title">
+                <h4 id="about mt-5 mb-2">Who I Am</h4>
+            </div>
+            <div class="about">
                 <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/Profile.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Roberto Georges</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Software Engineer</span></p>
-                      <p><span class="title-s">Email: </span> <span>georgesroberto21@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>(+254) 701449869</span></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill-mf">
-                  <p class="title-s">Proficiency in:</p>
-
-                  <span>Development</span> <span class="pull-right">90%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-
-                  <span>Programming</span> <span class="pull-right">85%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  
-                  <span>Networking</span> <span class="pull-right">75%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-
-                  <span>System Administation</span> <span class="pull-right">70%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    I am a skilled and enthusiastic software engineer who possesses a solid background in computer science and specializes in creating resilient and scalable software solutions. With a proven history of accomplished projects and a strong dedication to staying abreast of the latest technologies, my focus lies in producing top-notch systems and inventive solutions that align with client needs.
-                  </p>
-                  <p class="lead">
-                    <li>I possess proficiency in several programming languages, including PHP, C++, Java, Kotlin, Python, and JavaScript, and I have a deep understanding of object-oriented programming principles. Additionally, I have a strong knowledge of Agile software development methodology, enabling me to facilitate efficient collaboration and project management.</li>
-
-                    <li>My expertise extends to full-stack development, encompassing front-end technologies such as HTML5, CSS, Bootstrap5 and JavaScript, as well as back-end technologies like Node.js, and PHP. I am well-versed in working with database management systems, including SQL databases like MySQL.</li>
-                  </p>
-                  <p>
-                    <span><button style="position: left;" class="button button-a button-big button-rouded" ><a class="fas fa fa-download" href="lib/ROBERTO GEORGES CV.pdf" style="color: #ffffff;" download>Download CV</a></button></span>
-                  
-                    <span><button class="button button-a button-big button-rouded" ><a class="fas fa fa-whatsapp" href="https://wa.me/+254796807438" style="color: #f5f5f5;">Chat with me</a></button></span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--About End-->
-
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Services
-            </h3>
-            <p class="subtitle-a">
-            With a passion for user-centric design and a knack for cutting-edge technologies, I specialize in building immersive and responsive web experiences. From captivating visuals to seamless functionality, I deliver tailor-made solutions that leave a lasting impact. Let's transform your digital vision into a reality.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Development</h2>
-              <p class="s-description text-center">
-                Ignite your online presence with a skilled web developer who combines creativity and technical expertise to craft stunning websites. With a passion for user-centric design and a knack for cutting-edge technologies, I specialize in building immersive and responsive web experiences. From captivating visuals to seamless functionality, I deliver tailor-made solutions that leave a lasting impact. Let's transform your digital vision into a reality.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">WordPress Management</h2>
-              <p class="s-description text-center">
-                With a skilled WordPress Manager who adds knowledge and grace to your online presence, you can unleash the power of WordPress. I excel at optimizing websites for speed, security, and user experience because I am a master of this flexible platform. I arrange fluid operations and offer strategic advice to maximize the potential of WordPress. With a WordPress Manager who takes your website to the next level, elevate your online visibility.
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Laravel Developmemt</h2>
-              <p class="s-description text-center">
-                With a genuine passion for web development and a dedicated focus on Laravel, I've worked hard to refine my expertise in crafting robust and dynamic web applications. My skill set ranges from designing seamless APIs to architecting intricate database structures. I take immense pride in my ability to effectively utilize Laravel's capabilities, turning concepts into exceptional digital experiences.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Android Development</h2>
-              <p class="s-description text-center">
-                As an aspiring Android developer, I am thrilled to showcase my journey of growth and learning in the realm of mobile app development. My fascination with Android has driven me to dive headfirst into mastering the fundamentals, and I take immense pride in my ability to create intuitive and user-friendly interfaces. Through dedicated learning and hands-on experience, I have gained proficiency in Java programming (In the Kotlin Learning curve), UI/UX design, and the implementation of core Android components. My evolving skills allow me to transform creative ideas into functional app experiences.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-edit"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Freelancing (Writing, Data Entry)</h2>
-              <p class="s-description text-center">
-                Juggling the role of a freelance writer alongside my primary endeavors, I bring three years of diverse experience to the realm of content creation. With a keyboard as my canvas, I've meticulously woven words into compelling narratives, informative articles, and engaging blog posts. Through countless projects, I've honed my ability to tailor my writing to various tones and styles, ensuring the delivery of content that captivates and informs readers. In addition to my passion for writing, my interest in cyber security has also led me to explore and craft content that raises awareness about digital safety. 
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-network"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Networking</h2>
-              Unleashing the digital realm is my forte, forged through hands-on experience in cyber expertise. Proficient in online tasks, cabling intricacies, routing finesse, and WiFi wizardry, I engineer seamless connections – I'm equally at home in the role of a networking virtuoso, I sculpt data pathways, while in system administration, I ensure seamless operations. Let's bridge your tech dreams to reality, turning challenges into solutions.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Services End /-->
-
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/CountTrack-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <span class="counter-text">Started coding in: </span>
-              <p class="counter">2020</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">4</p>
-              <span class="counter-text">Completed Projects</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">7</p>
-              <span class="counter-text">Certificates</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">4</p>
-              <span class="counter-text">Clients</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <!--/ Section Portfolio Star /-->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Portfolio
-              </h3>
-              <p class="subtitle-a">
-                My Projects
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/dicii.png" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <a href="img/dicii.png" data-lightbox="gallery-mf">
-                      <h2 class="w-title">Junior Wordpress Manager</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">DICII SUPERMARKET</span> / <span class="w-date">Nov 2021</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/testimonial-1.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Web Development</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Roberto Georges</span> / <span class="w-date">01 June 2023</span>
-                      </div>
-                    </div>
-                  <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/cuffs.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Crime Manageent System</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Patrick Bett</span> / <span class="w-date">May, 2023</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/ Section Portfolio End /-->
-
-  <!--/ Section Testimonials Start/-->
-  
-<!--END OF Testimonials-->
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/lastImage.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                    Message Me
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="mailto:911cybersolutions@gmail.com" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:3" data-msg="Please enter your name (*at least 3 letters)" />
-                            <div class="validation"></div>
-                          </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">                    
+                                <img src="./img/Profile.jpg" alt="Profile">
+                            </div>
+                            <span class="col-md-6">
+                                <p><b>Name: </b>ROBERTO GEORGES</p>
+                                <p><b>Profession: </b>Software Engineering</p>
+                                <p><b>Description: </b>Programmer | Developer</p>
+                                <p><b>Github username: </b>georgesroberto</p>
+                                <p><b>Phone: </b>+254796807438</p>                                
+                            </span>
+                            <div class="col-md-12">
+                                <h5 class="card-title m-3">Proficient in: </h5>
+                                <p>Front-End</p>
+                                <span>Laravel </span> <span class="pull-right"> (80%)</span>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span>Django </span> <span class="pull-right"> (70%)</span>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div><br>
+                                <p>Back-End</p>
+                                <span>PhpMyAdmin</span> <span class="pull-right"> (90%)</span>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <span>MySQL Server</span> <span class="pull-right"> (80%)</span>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>                        
                         </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <h5>Personal Summary</h5>
+                        <p>I am a skilled and enthusiastic software engineer who possesses a solid background in computer science and specializes in creating resilient and scalable software solutions. With a proven history of accomplished projects and a strong dedication to staying abreast of the latest technologies, my focus lies in producing top-notch systems and inventive solutions that align with client needs.</p>
+                        <p>I possess proficiency in several programming languages, including PhP, C++, Java, Kotlin, Python, and JavaScript, and I have a deep understanding of object-oriented programming principles. Additionally, I have a strong knowledge of Agile software development methodology, enabling me to facilitate efficient collaboration and project management.</p>
+                        <p>My expertise extends to full-stack development, encompassing front-end technologies such as HTML5, CSS, Bootstrap5 and JavaScript, as well as back-end technologies like Node.js, and PhP. I am well-versed in working with database management systems, including SQL databases like MySQL.</p>
+                        <a href="doc/Georges_Resume.pdf" type="file" download style="color: white;"><button class="btn btn-primary"><i class="fas fa-download"></i> Download CV</button></a>
+                        <a href="https://wa.me/+254796807438" style="color: white;"><button class="btn btn-primary" type="submit"><i class="fas fa-message"></i> Let's Chat</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END ABOUT -->
+
+
+        <!-- SERVICES -->
+        <div class="card-title">
+            <h3 id="services">What I Do</h3>
+        </div>
+        <section class="paralax-mf bg-image" style="background-image: url(img/lastImage.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container">
+                <div class="services container-fluid wrap">
+                    <div class="row">
+                         <div class="col-md-6 mb-2">
+                            <div class="card">
+                                <div class="card-title">
+                                    <h6>Website Development</h6>
+                                </div>
+                                <i class="fas fa-laptop"></i>
+                                <div class="card-text">
+                                    <p>Ignite your online presence with a skilled web developer who combines creativity and technical expertise to craft stunning websites. With a passion for user-centric design and a knack for cutting-edge technologies, I specialize in building immersive and responsive web experiences. From captivating visuals to seamless functionality, I deliver tailor-made solutions that leave a lasting impact. Let's transform your digital vision into a reality.</p>
+                                </div>                  
                             </div>
                         </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Post your feedback or concern" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="card ">
+                                <div class="card-title">
+                                    <h6>Laravel Web Systems</h6>
+                                </div>
+                                <i class="fas fa-code"></i>
+                                <div class="card-text">
+                                    <p>With a genuine passion for web development and a dedicated focus on Laravel, I've worked hard to refine my expertise in crafting robust and dynamic web applications. My skill set ranges from designing seamless APIs to architecting intricate database structures. I take immense pride in my ability to effectively utilize Laravel's capabilities, turning concepts into exceptional digital experiences.</p>
+                                </div>                  
+                            </div>
                         </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded" href="georgesroberto21@gmail.com" target="blank" onclick="feed()">Send Feedback</button>
+                        <div class="col-md-6 mb-2">
+                            <div class="card ">
+                                <div class="card-title">
+                                    <h6>Android | IOS Apps</h6>
+                                </div>
+                                <i class="fas fa-Phone"></i>
+                                <div class="card-text">
+                                    <p>As an aspiring Android developer, I am thrilled to showcase my journey of growth and learning in the realm of mobile app development. My fascination with Android has driven me to dive headfirst into mastering the fundamentals, and I take immense pride in my ability to create intuitive and user-friendly interfaces. Through dedicated learning and hands-on experience, I have gained proficiency in Java programming (In the Kotlin Learning curve), UI/UX design, and the implementation of core Android components. My evolving skills allow me to transform creative ideas into functional app experiences.</p>
+                                </div>                  
+                            </div>
                         </div>
-                      </div>
-                    </form>
-                  </div>
+                        <div class="col-md-6 mb-2">
+                            <div class="card ">
+                                <div class="card-title">
+                                    <h6>Django Python Dev</h6>
+                                </div>
+                                <i class="fas fa-globe"></i>
+                                <div class="card-text">
+                                    <p>Invest in a talented web developer who can create great websites by fusing creativity and technological know-how. I have a flair for innovative technology as well as a passion for customer-focused design, and I specialize in creating dynamic and comprehensive web experiences. I provide custom solutions that have a positive impact, from intriguing graphics to seamless functioning. Let's make your digital vision come to life.</p>
+                                </div>                  
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                <!--Gei in Touch -->
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      Physical Address
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> Tudor, Mombasa, Kenya</li>
-                      <li><span class="ion-ios-telephone"></span><a href="tel:+254796807438" style="color: skyblue;">(+254)796-807438</a></li>
-                      <li><span class="ion-email"></span><a href="mailto:georgesroberto21@gmail.com?subject=Feedback from Portfolio&body=Hello Georges," style="color: skyblue;">georgesroberto21@gmail.com</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="socials">
-                    <p class="lead">
-                      Socials
-                    </p>
-                    <ul>
-                      <li><a href="https://github.com/georgesroberto"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-                      <li><a href="instagram.com"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>                
-                      <li><a href="https://wa.me/+254796807438"><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>    
-  </section>
-  <!--/ Section Contact-footer End /-->
+        </section>
+        <!--END SERVICES-->
 
-  <!--Final Footer Start--> 
-    <footer id="finalFooter">
-      <div class="wrapper">
+
+        <!-- PROJECTS -->        
+        <div class="container" id="projects">
+            <div class="card-title">
+                <h3>Projects I Have Done</h3>
+            </div>
+            <div class="card-text">
+                <div class="row">
+                    <!--App 1-->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-title">
+                                <h5>Bible Trivia Mini App</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://bible-trivia-app.vercel.app/"><img src="./img/trivia.png" class="pb-3" alt="Bible-Trivia-App"></a>
+                                <p>This is a basic beginner level (HTML/CSS/JS web-app) to demonstrate my expertse in Web 1 Programming</p><p>God programmed the whole world so why don't we kick off with this appetizer for the projects. Remember to chat me your score.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 1-->
+                    
+                    <!--App 2-->
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="card-title">
+                                <h5>Stock Management System</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <img src="./img/smis.png" class="pb-3"  alt="Stock-Management-System">
+                                <p>Have you heard of <b>Python</b>? Don't freak out. I am talking about a language and not that scary animal.</p>
+                                <p><b><i>Having a difficult time stock taking?</i></b> I have a web-based application that can be used to track stock. Order IN, Issue OUT, Alert REORDER.</p>
+                                <p>Let's not make the stew too spicy. Just give me a call and digitize your shop right away.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 2-->
+                    <!--App 3-->
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="card-title">
+                                <h5>Make I Am</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://makeiam.vercel.app" class="pb-3"><img src="./img/mia.png" alt="Make I Am"></a>
+                                <p>Jeez too much code without music? Get to see this powerful website of an upcoming artist, MAKE I AM</p>
+                                <P>Are you aware that a new track is out. I'm Obsessed mahn<a href="makeiam.vercel.app"> Click Here</a> and get to watch it from the website I developed. Dev Kalutu...are you there?</P>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 3-->
+                    <!--App 4-->
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="card-title">
+                                <h5>Movie App</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://georges-movie-app.vercel.app/" class="pb-3"><img src="./img/movie.png" alt="Movie-App"></a>
+                                <p>Okay, Here I am again. Have you watched the latest movie currently rating at 9.*</p>
+                                <p>Okay if you think I am kidding, take a look at my movie app. Coders may understand when I say <b>APIs</b> are here to make life colorful.</p>
+                                <p>Tell me you favourite movie not in my app and I will give you a <i>free T-shirt</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 4-->
+                    <!--App 5-->
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="card-title">
+                                <h5>Fatmak Pro Consultancy</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <a href="https://www.fatmakproconsultancy.com/"><img src="./img/fatmak.png" class="pb-3" alt="Fatmak-Pro-Consultancy"></a>
+                                <p>With the basic knowledge of static Web1, I have managed to succesfully complete this Consultancy firm website. I must share my applaud at half a cup of coffee to my partner, Dev <a href="https://kalutu-daniel.vercel.app">Kalutu Daniel</a>, for how much we pushed to see this hosted.</p>
+                                <p>Feel free to get some Consultancy services at their website...<a href="https://fatmakproconsultancy.com">fatmakproconsultancy.com</a> or just search for this indexed website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 5-->
+                    <!--App 6-->
+                    <div class="col-md-6">
+                        <div class="card ">
+                            <div class="card-title">
+                                <h5>SelfSpark BlogApp</h5>
+                            </div>
+                            <div class="card-text p-2">
+                                <img src="./img/blog.png" class="pb-3" alt="Blog-App">
+                                <p>Are you interested in Blogs? <b>LARAVEL</b> is a friend of mine.</p>
+                                <p>I used it to develop this awesome blog app. Check out soon for the link coz I'm certain you are not ready for what is coming. </p>
+                                <p>The advent of mental preparedness</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End App 6-->
+                </div>
+            </div> 
+            <button class="btn btn-primary p-3 m-3">Consider Visiting My GitHub Page To See More Projects</button>               
+        </div>
+        <!-- END PROJECTS -->
+
+
+        <!--START CONTACT FORM-->
+        <section class="paralax-mf bg-image" style="background-image: url(img/lastImage.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="card ">
+                <div class="contact" id="contact">
+                    <h3 class="card-title" >Contact Me </h3>
+                    <div class="card-text row">
+                        <div class="col-1"></div>
+                        <div class="col-md-6">
+                            <form action="">
+                                <h6>Feedback Form</h6>
+                                <input class="" type="text" placeholder="Your Name: " required/><br><br>
+                                <input class="" type="email" placeholder="Your Email" required/><br><br>
+                                <input class="" type="number" placeholder="Phone number (optional)" /><br><br>
+                                <textarea class="" placeholder="Write feedback here..." id="" cols="30" rows="5" required></textarea><br><br>
+                                <button class="btn btn-primary" type="submit">Send Feedback <i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col-4">
+                            <h5>Get in Touch</h5>
+                            <h6>Physical Address</h6>
+                            <i class="p-2 fas fa-location"></i><b>Location:</b> 
+                            Tudor, Mombasa, Kenya<br>
+                            <i class="p-2 fas fa-phone"></i><b>Phone:</b>
+                            <a href="tel:+254796807438">+254796807438</a><br>
+                            <i class="p-2 fas fa-message"></i><b>Gmail:</b>
+                            <a href="mailto:georgesroberto21@gmail.com">georgesroberto21@gmail.com</a><br><br>
+
+                            <h5>Socials</h5>
+                            <i class="p-2 ion-social-github"><a target="_self" href="https://github.com/georgesroberto"></i>GITHUB</a>
+                            <i class="p-2 ion-social-linkedin"><a target="_self" href="https://linkedin/roberto-georges">LINKEDIN</i></a>
+                            <i class="p-2 ion-social-instagram"><a target="_self" href="https://instagram.com/georgesandress">INSTAGRAM</i></a>
+                            <i class="p-2 ion-social-facebook"><a target="_self" href="https://facebook.com/roberto-georges">FACEBOOK</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END CONTACT FORM -->
+    </main>
+    <!-- END MAIN -->
+
+
+    <!--START FOOTER -->
+    <footer class="footer pt-4">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy;Copyright <em style="color: black;">Devfolio</em>. All Rights Reserved</p>
-              <div class="credits"><span right> Designed by <a href="#"><strong style="color:skyblue"> Dev Georges </strong></span></a>
-              </div>
+            <div class="col-12">
+                <p>2023 | All rights reserved | Developed with love by Roberto Georges</span>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <div id="preloader"></div>
-  </section>
-  <!--Final Footer End-->
+    <!--END FOOTER-->
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
 
 </body>
 </html>
