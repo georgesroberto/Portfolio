@@ -39,6 +39,9 @@ i{
     padding: 8px;
     margin: 2px 2px 8px 2px;
     width: 100%;
+    cursor: pointer;
+    transition: transform 0.9s ease-in-out;
+  
 }
 .card-title {
     text-align: center;
@@ -210,22 +213,10 @@ button{
 
 
 
-
-  
-/* .card {
-  width: 200px;
-  height: 300px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-} */
-
 .card:hover {
   transform: scale(1.1);
 }
+
 
 /* Add your animation keyframes */
 @keyframes bounce {
@@ -233,7 +224,7 @@ button{
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   60% {
     transform: translateY(-10px);
@@ -242,5 +233,15 @@ button{
 
 /* Apply the animation to a specific class */
 .animated {
-  animation: bounce 1s ease-in-out;
+  animation: slideInLeft 1s ease-in-out;
 }
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
