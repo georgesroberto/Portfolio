@@ -16,6 +16,9 @@
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -23,9 +26,10 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- Additional js -->
   <script src="js/script.js"></script>
 </head>
 
@@ -156,8 +160,8 @@
                   <h6>Projects</h6>
                     <p class="lead">
                       My skill are related to projects that I have tackled in my learning duration. This includes a range of projects from Vanilla JavaScript, Native Php, Frameworks of their fields, django framework and the recent flutter framework for IOS | Android apps.
-                  <p>
-                    <span><button style="position: left;" class="button button-a button-big button-rouded" ><a class="fas fa fa-download" href="lib/ROBERTO GEORGES CV.pdf" style="color: #ffffff;" download> Download CV</a></button></span>
+                    </p>
+                    <span><button style="position: left;font-family: monospace;" class="button button-a button-big button-rouded" ><a class="fas fa fa-download" href="lib/ROBERTO GEORGES CV.pdf" style="color: #ffffff;" download> Download CV</a></button></span>
                   
                     <span><button class="button button-a button-big button-rouded" ><a class="fas fa fa-whatsapp" href="https://wa.me/+254796807438" style="color: #f5f5f5;"> WA Chat</a></button></span>
                   </p>
@@ -318,6 +322,95 @@
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="https://www.fatmakproconsultancy.com/"><img src="img/fatmak.jpeg" alt="Fatmak" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Websites</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="https://www.fatmakproconsultancy.com/">Fatmak Pro Consultancy</a></h3>
+              <p class="card-description">
+                Make your presence visible online with our impeccable designs that meet user requirements with great functionalities providing exemplary userinteractivity and user experience. In collaboration with developer <a href="https://kalutu-daniel.vercel.app/">Daniel Kalutu</a>.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="img/Logo.png" alt="" class="avatar rounded-circle">
+                  <span class="author">Georges</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> 2023
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href=""><img src="img/movie.jpeg" alt="Movie App" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Entertainment</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="https://georges-movie-app.vercel.app/">Movie App</a></h3>
+              <p class="card-description">
+                Interaction with API to provide real-time systems. Flexibility is all I value as I weave my way into the current trends in technological development. Get the ratings of your favorite movie and dm to even get it downloaded using the app premium
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="img/Logo.png" alt="" class="avatar rounded-circle">
+                  <span class="author">Georges</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> 2023
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="#apk"><img src="img/mobile.jpeg" alt="Mobile App" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Android | IOS Apps</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="blog-single.html">Mobile App Development</a></h3>
+              <p class="card-description">
+                Embracing new languages to provide seamless and stylish reusable widgets to reduce development and production time. Order your apps now and get them delivered within no time. Explore, Imagine, Invent and Bring it to life.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                <a href="#">
+                  <img src="img/Logo.png" alt="" class="avatar rounded-circle">
+                  <span class="author">Georges</span>
+                </a>
+              </div>
+              <div class="post-date">
+                <span class="ion-ios-clock-outline"></span> 2023
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -344,32 +437,32 @@
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
                       <div id="errormessage"></div>
                       <div class="row">
-                        <div class="col-md-12 mb-3">
+                        <div class="col-12 mb-3">
                           <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:3" data-msg="Please enter your name (*at least 3 letters)" />
                             <div class="validation"></div>
                           </div>
                         </div>
-                        <div class="col-md-12 mb-3">
+                        <div class="col-12 mb-3">
                           <div class="form-group">
                             <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                             <div class="validation"></div>
                           </div>
                         </div>
-                        <div class="col-md-12 mb-3">
+                        <div class="col-12 mb-3">
                             <div class="form-group">
                               <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                               <div class="validation"></div>
                             </div>
                         </div>
-                        <div class="col-md-12 mb-3">
+                        <div class="col-12 mb-3">
                           <div class="form-group">
                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Post your feedback or concern" placeholder="Message"></textarea>
                             <div class="validation"></div>
                           </div>
                         </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded" href="georgesroberto21@gmail.com" target="blank" onclick="feed()">Send Feedback</button>
+                        <div class="col-12">
+                          <button type="submit" class="button button-a button-big button-rouded" href="georgesroberto21@gmail.com" target="blank" onclick="feed()">Send Feedback <i class="fas fa-paper-plane"></i></button>
                         </div>
                       </div>
                     </form>
@@ -417,13 +510,9 @@
 
 
   <!--Final Footer Start-->
-  <section>
+  <section class="bg-dark">
     <footer id="finalFooter">
-      <div class="row">
-        <div class="col-12">
-            <p>All rights reserved | Roberto Georges</p>
-        </div>
-      </div>
+      <p class="text-center pb-0 pt-5">All rights reserved | Roberto Georges</p>
       <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
       <div id="preloader"></div>
     </footer>
