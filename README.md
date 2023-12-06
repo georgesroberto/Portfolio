@@ -9,7 +9,12 @@
 A Software Engineer's personal portfolio. Visit website to access social links.
 
 ## How to use the source code
-Just ask the developer
+<ol>
+  <li>Click on code then fork</li>
+  <li>Open vscode terminal and run git clone "paste"</li>
+  <li>run cd Portfolio</li>
+  <li>With your desired html viewer view index.html page from desired web app</li>
+</ol>
 
 ## Technologies
 

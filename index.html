@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Roberto Georges</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Roberto Georges" name="keywords">
-    <meta content="Portfolio" name="description">
-    <meta name="google-site-verification" content="nqod4kIykV48-Pu8sJTZpsB6954-lGAfetz53SfKeQ8" />
+  <meta charset="utf-8">
+  <title>Roberto Georges</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Roberto Georges" name="keywords">
+  <meta content="Portfolio" name="description">
+  <meta name="google-site-verification" content="nqod4kIykV48-Pu8sJTZpsB6954-lGAfetz53SfKeQ8" />
 
   <!-- Favicons -->
   <link href="img/favicon.ico" rel="icon">
   <link href="img/Logo.png" rel="apple-touch-icon">
 
-    <!--End of Ads-->
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Include Bootstrap (CDN) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <!-- Include Font Awesome CSS (CDN) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <!-- Favicons -->
-    <link href="img/favicon.ico" rel="icon">
-    <link href="img/Logo.png" rel="apple-touch-icon">
-
-    <!--CUSTOM CSS-->
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
 
   <!-- Main Stylesheet File -->
@@ -81,19 +75,19 @@
           <h1 class="intro-title mb-4">ROBERTO GEORGES</h1>
           <p class="intro-subtitle"><span class="text-slider-items">Software Engineer, Full stack developer</span><strong class="text-slider"></strong></p>
         </div>
-    </header>
-    <!-- END HEADER -->
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
 
-
-    <!-- START MAIN -->
-    <main class="container" role="main">
-
-        <!-- ABOUT -->
-        <div class="card">
-            <div class="card-title">
-                <h4 id="about mt-5 mb-2">Who I Am</h4>
-            </div>
-            <div class="about" id="about">
+  <!--About Start-->
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
                 <div class="row">
                   <div class="col-sm-6 col-md-5">
                     <div class="about-img">
@@ -434,77 +428,30 @@
                             <div class="validation"></div>
                           </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <h5>Personal Summary</h5>
-                        <p>I am a skilled and enthusiastic software engineer who possesses a solid background in computer science and specializes in creating resilient and scalable software solutions. With a proven history of accomplished projects and a strong dedication to staying abreast of the latest technologies, my focus lies in producing top-notch systems and inventive solutions that align with client needs.</p>
-                        <p>I possess proficiency in several programming languages, including PhP, C++, Java, Kotlin, Python, and JavaScript, and I have a deep understanding of object-oriented programming principles. Additionally, I have a strong knowledge of Agile software development methodology, enabling me to facilitate efficient collaboration and project management.</p>
-                        <p>My expertise extends to full-stack development, encompassing front-end technologies such as HTML5, CSS, Bootstrap5 and JavaScript, as well as back-end technologies like Node.js, and PhP. I am well-versed in working with database management systems, including SQL databases like MySQL.</p>
-                        <a href="doc/Georges_Resume.pdf" type="file" download style="color: white;"><button class="btn btn-primary"><i class="fas fa-download"></i> Download CV</button></a>
-                        <a href="https://wa.me/+254796807438" style="color: white;"><button class="btn btn-primary" type="submit"><i class="fas fa-message"></i> Let's Chat</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- END ABOUT -->
-
-
-        <!-- SERVICES -->
-        <div class="card-title">
-            <h3 id="services">What I Do</h3>
-        </div>
-        <section class="paralax-mf bg-image" style="background-image: url(img/lastImage.jpg)">
-            <div class="overlay-mf"></div>
-            <div class="container">
-                <div class="services container-fluid wrap">
-                    <div class="row">
-                         <div class="col-md-6 mb-2">
-                            <div class="card">
-                                <div class="card-title">
-                                    <h6>Website Development</h6>
-                                </div>
-                                <i class="fas fa-laptop"></i>
-                                <div class="card-text">
-                                    <p>Ignite your online presence with a skilled web developer who combines creativity and technical expertise to craft stunning websites. With a passion for user-centric design and a knack for cutting-edge technologies, I specialize in building immersive and responsive web experiences. From captivating visuals to seamless functionality, I deliver tailor-made solutions that leave a lasting impact. Let's transform your digital vision into a reality.</p>
-                                </div>                  
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="card ">
-                                <div class="card-title">
-                                    <h6>Laravel Web Systems</h6>
-                                </div>
-                                <i class="fas fa-code"></i>
-                                <div class="card-text">
-                                    <p>With a genuine passion for web development and a dedicated focus on Laravel, I've worked hard to refine my expertise in crafting robust and dynamic web applications. My skill set ranges from designing seamless APIs to architecting intricate database structures. I take immense pride in my ability to effectively utilize Laravel's capabilities, turning concepts into exceptional digital experiences.</p>
-                                </div>                  
-                            </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Post your feedback or concern" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
                         </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="card ">
-                                <div class="card-title">
-                                    <h6>Android | IOS Apps</h6>
-                                </div>
-                                <i class="fas fa-Phone"></i>
-                                <div class="card-text">
-                                    <p>As an aspiring Android developer, I am thrilled to showcase my journey of growth and learning in the realm of mobile app development. My fascination with Android has driven me to dive headfirst into mastering the fundamentals, and I take immense pride in my ability to create intuitive and user-friendly interfaces.My evolving skills allow me to transform creative ideas into functional app experiences. Skillset based majorly on flutter framework (Dart Programmin Language)</p>
-                                </div>                  
-                            </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded" href="georgesroberto21@gmail.com" target="blank" onclick="feed()">Send Feedback</button>
                         </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="card ">
-                                <div class="card-title">
-                                    <h6>Django Python Dev</h6>
-                                </div>
-                                <i class="fas fa-globe"></i>
-                                <div class="card-text">
-                                    <p>Invest in a talented web developer who can create great websites by fusing creativity and technological know-how. I have a flair for innovative technology as well as a passion for customer-focused design, and I specialize in creating dynamic and comprehensive web experiences. I provide custom solutions that have a positive impact, from intriguing graphics to seamless functioning. Let's make your digital vision come to life.</p>
-                                </div>                  
-                            </div>
-                        </div>
-                    </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
                 
                 <!--Gei in Touch -->
@@ -539,8 +486,12 @@
                 </div>
               </div>
             </div>
-        </section>
-        <!--END SERVICES-->
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section>
+  <!--/ Section Contact-footer End /-->
 
 
   <!--Final Footer Start-->
@@ -557,8 +508,22 @@
   </section>
   <!--Final Footer End-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
 
-    <script src="script.js"></script>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
