@@ -1,14 +1,19 @@
 # Personal Portfolio
+
 ## Website Preview
+
 <a href="roberto-geroges.vercel.app"><div style="width: 100%; height: auto;">
-  <img src="img/webPreview.png" alt="Web Preview" style="max-width: 100%; height: auto; display: block; margin: 0 auto; ">
+<img src="img/webPreview.png" alt="Web Preview" style="max-width: 100%; height: auto; display: block; margin: 0 auto; ">
+
 </div>
 </a>
 
-## About Website 
+## About Website
+
 A Software Engineer's personal portfolio. Visit website to access social links.
 
 ## How to use the source code
+
 <ol>
   <li>Click on code then fork</li>
   <li>Open vscode terminal and run git clone "paste"</li>
@@ -40,8 +45,8 @@ A Software Engineer's personal portfolio. Visit website to access social links.
 </div>
 </div>
 
-
 ## Additional Info
+
 <ul>
   <li>Developed by Dev Georges.</li>
   <li>Chat me with on <a href = "https://wa.me/+254796807438">whatsapp</a></li>

@@ -1,0 +1,185 @@
+/*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+.testimonials .testimonial-masonry {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  position: relative;
+}
+
+.testimonials .testimonial-masonry::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at center,
+    color-mix(in srgb, var(--accent-color), transparent 95%),
+    transparent
+  );
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.testimonials .testimonial-item:nth-child(3n-1) {
+  margin-top: 3rem;
+}
+
+.testimonials .testimonial-item:nth-child(3n) {
+  margin-top: 1.5rem;
+}
+
+.testimonials .testimonial-item.highlight .testimonial-content {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 92%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+.testimonials .testimonial-item.highlight .testimonial-content .quote-pattern {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+}
+
+.testimonials
+  .testimonial-item.highlight
+  .testimonial-content
+  .quote-pattern
+  i {
+  color: var(--accent-color);
+}
+
+.testimonials .testimonial-content {
+  background-color: var(--surface-color);
+  border-radius: 20px;
+  padding: 2rem;
+  position: relative;
+  transition: all 0.3s ease;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
+}
+
+.testimonials .testimonial-content:hover {
+  transform: translateY(-5px);
+}
+
+.testimonials .testimonial-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.testimonials .quote-pattern {
+  position: absolute;
+  top: -1.25rem;
+  left: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--surface-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
+}
+
+.testimonials .quote-pattern i {
+  font-size: 1.25rem;
+  color: var(--accent-color);
+}
+
+.testimonials .client-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 92%);
+}
+
+.testimonials .client-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.testimonials .client-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials .client-details h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+
+.testimonials .client-details .position {
+  font-size: 0.875rem;
+  color: color-mix(in srgb, var(--heading-color), transparent 40%);
+}
+
+@media (max-width: 1199.98px) {
+  .testimonials .testimonial-masonry {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .testimonials .testimonial-item:nth-child(3n-1),
+  .testimonials .testimonial-item:nth-child(3n) {
+    margin-top: 0;
+  }
+
+  .testimonials .testimonial-item:nth-child(even) {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .testimonials .testimonial-masonry {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .testimonials .testimonial-item:nth-child(even) {
+    margin-top: 0;
+  }
+
+  .testimonials .testimonial-content {
+    padding: 1.5rem;
+  }
+
+  .testimonials .testimonial-content p {
+    font-size: 0.9375rem;
+    margin: 1.25rem 0;
+  }
+
+  .testimonials .quote-pattern {
+    width: 2.25rem;
+    height: 2.25rem;
+    top: -1.125rem;
+  }
+
+  .testimonials .quote-pattern i {
+    font-size: 1.125rem;
+  }
+
+  .testimonials .client-info {
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+  }
+
+  .testimonials .client-image {
+    width: 45px;
+    height: 45px;
+  }
+
+  .testimonials .client-details h3 {
+    font-size: 1rem;
+  }
+
+  .testimonials .client-details .position {
+    font-size: 0.8125rem;
+  }
+}

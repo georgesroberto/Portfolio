@@ -1,0 +1,398 @@
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .service-header {
+  margin-bottom: 60px;
+}
+
+.services .service-header .service-intro .service-heading {
+  font-size: 48px;
+  margin-bottom: 0;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--heading-color);
+}
+
+.services .service-header .service-intro .service-heading div {
+  display: block;
+  position: relative;
+}
+
+.services .service-header .service-intro .service-heading span {
+  display: block;
+  color: var(--accent-color);
+}
+
+@media (max-width: 992px) {
+  .services .service-header .service-intro .service-heading {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services .service-header .service-intro .service-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.services .service-header .service-summary p {
+  margin-bottom: 25px;
+  color: var(--default-color);
+}
+
+.services .service-header .service-summary .service-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 30px;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.services .service-header .service-summary .service-btn i {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.services .service-header .service-summary .service-btn:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  color: var(--contrast-color);
+}
+
+.services .service-header .service-summary .service-btn:hover i {
+  transform: translateX(5px);
+}
+
+@media (max-width: 992px) {
+  .services .service-header .service-summary {
+    margin-top: 30px;
+  }
+}
+
+.services .service-card {
+  padding: 40px 40px 40px 40px;
+  margin-bottom: 30px;
+  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 90%);
+  transition: all 0.3s ease;
+}
+
+.services .service-card .service-icon {
+  margin-bottom: 25px;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 64px;
+  height: 64px;
+}
+
+.services .service-card .service-icon i {
+  font-size: 32px;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.services .service-card h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.services .service-card h3 a {
+  color: var(--heading-color);
+  transition: color 0.3s ease;
+}
+
+.services .service-card h3 a span {
+  display: block;
+}
+
+.services .service-card h3 a:hover {
+  color: var(--accent-color);
+}
+
+.services .service-card p {
+  color: var(--default-color);
+  transition: color 0.3s ease;
+  margin-bottom: 0;
+}
+
+.services .service-card .card-action {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.services .service-card .card-action i {
+  font-size: 24px;
+  color: var(--contrast-color);
+  transition: transform 0.3s ease;
+}
+
+.services .service-card .card-action:hover i {
+  transform: rotate(45deg);
+}
+
+.services .service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--surface-color);
+  clip-path: polygon(70% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.services .service-card:hover {
+  border-color: transparent;
+}
+
+.services .service-card:hover::before {
+  opacity: 1;
+  visibility: visible;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+}
+
+.services .service-card:hover h3 a {
+  color: var(--accent-color);
+}
+
+.services .service-card:hover h3 a:hover {
+  color: var(--accent-color);
+}
+
+.services .service-card:hover p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.services .service-card:hover .card-action {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.services .service-card:hover .service-icon i {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .services .service-card {
+    padding: 150px 25px 25px;
+  }
+
+  .services .service-card h3 {
+    font-size: 24px;
+  }
+
+  .services .service-card .service-icon {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 70px 0 50px;
+  }
+} 
+
+/*--------------------------------------------------------------
+# Service Details Section
+--------------------------------------------------------------*/
+.service-details .service-details-slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.service-details .service-details-slider .swiper-wrapper {
+  height: auto !important;
+}
+
+.service-details .service-details-slider .swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.service-details
+  .service-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: var(--contrast-color);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.service-details
+  .service-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 20px;
+  border-radius: 5px;
+}
+
+.service-details .content h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.service-details .content p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 15px;
+}
+
+.service-details .content .features .feature-box {
+  padding: 20px;
+  background: var(--surface-color);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  transition: 0.3s;
+}
+
+.service-details .content .features .feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-details .content .features .feature-box i {
+  font-size: 24px;
+  color: var(--accent-color);
+  margin-right: 15px;
+}
+
+.service-details .content .features .feature-box h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.service-details .service-info {
+  background: var(--surface-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.service-details .service-info h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid
+    color-mix(in srgb, var(--accent-color), transparent 85%);
+}
+
+.service-details .service-info .info-item {
+  margin-bottom: 25px;
+}
+
+.service-details .service-info .info-item:last-child {
+  margin-bottom: 0;
+}
+
+.service-details .service-info .info-item i {
+  font-size: 24px;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.service-details .service-info .info-item h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.service-details .service-info .info-item p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0;
+}
+
+.service-details .related-services {
+  background: var(--surface-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.service-details .related-services h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid
+    color-mix(in srgb, var(--accent-color), transparent 85%);
+}
+
+.service-details .related-services .service-item {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.service-details .related-services .service-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.service-details .related-services .service-item i {
+  font-size: 24px;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.service-details .related-services .service-item h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service-details .related-services .service-item h5 a {
+  color: var(--heading-color);
+  transition: 0.3s;
+}
+
+.service-details .related-services .service-item h5 a:hover {
+  color: var(--accent-color);
+}
+
+.service-details .related-services .service-item p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  .service-details .service-info,
+  .service-details .related-services {
+    margin-top: 30px;
+  }
+}
